@@ -25,5 +25,14 @@ $$\int x \times u(1+x^2)du$$
  $$u = \arctan(t)$$
  $$\int t \times \arctan(t) \times \sec^2(u) \times \frac{1}{\sec^2(u)}dt$$
  $$\int t \times \arctan(t)dt$$
+ $$s = \arctan(t) $$
+ $$\frac{ds}{dt} = \frac{1}{1+x^2}$$
+ $$ dt = 1+t^2$
+ $$v= \int tdt$$
+ $$v = \frac{1}{2} \times t^2$$
+ $$\arctan(t)\times\frac{1}{2}t^2-\frac{1}{2}\times\int t^2\times\frac{1}{1+x^2}dt$$
+ $$\arctan(t)\times\frac{1}{2}t^2-\frac{1}{2}\times\int \frac{t^2+1-1}{1+x^2}dt$$
+ $$\arctan(t)\times\frac{1}{2}t^2-\frac{1}{2}\times\int1- \frac{1}{1+x^2}dt$$
+ $$\arctan(t)\times\frac{1}{2}t^2-\frac{1}{2}\times(t-\arctan(t))+C$$
 </body>
 </html>
